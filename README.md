@@ -1,6 +1,8 @@
 # multi-card-combiner
 Python script to combine data from multiple dotcodes.
 
+This is intended for applications that do not fit on a single dotcode, such as NES games or the Decoration Present card. 
+
 # Usage
 * Download [nedcenc](https://www.caitsith2.com/ereader/tools/nedcenc.rar) from [caitsith2.com E-Reader Development Tools](https://www.caitsith2.com/ereader/devtools.htm)
 * Obtain the `.bin` files from the dotcodes you would like to combine
