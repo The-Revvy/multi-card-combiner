@@ -1,7 +1,8 @@
 import os
 import struct
 import sys
-os.remove("vpk.bin")
+if os.path.isfile("vpk.bin"):
+    os.remove("vpk.bin")
 in_file = open(sys.argv[1], 'rb')
 out_file = open("vpk.bin", "wb")
 data = in_file.read()
